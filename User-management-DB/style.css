@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #feeb9e;
+    color: #3a3935;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 100px auto;
+    background-color: #f0f6d0;
+    border-radius: 18px;
+    padding: 25px 50px 50px;
+    border: 2px solid #3a3935;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+a {
+    padding: 8px 15px;
+    border-radius: 18px;
+    background-color: #8cc152;
+    text-decoration: none;
+    color: #f0f6d0;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+a:hover {
+    background-color: #7bb73e;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    border-bottom: 1px solid #3a3935;
+    padding: 15px;
+}
+
+th {
+    text-align: left;
+}
+
+.btn-del {
+    background: #ed5565;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.btn-del:hover {
+    background-color: #da5461;
+}
+
+/* ADD.PHP */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #feeb9e;
+}
+
+.form-wrapper {
+    background: #3a3935;
+    width: 700px;
+    padding: 40px 40px 50px;
+    border-radius: 18px;
+    border: 2px solid #f0f6d0;
+}
+
+.form-wrapper h1 {
+    text-align: center;
+    color: #feeb9e;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin: 12px 0;
+    text-align: center;
+    padding: 10px;
+    color: #3a3935;
+    outline: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 90px;
+}
+
+.btn-box button {
+    padding: 8px 50px;
+    border: none;
+    font-size: 16px;
+    color: #f0f6d0;
+    cursor: pointer;
+    border-radius: 18px;
+    background: #5e9cea;
+
+    transition: background-color 0.15s;
+}
+
+.btn-box button:hover {
+    background-color: #3f7bc6;
+}
+
+.btn-box a {
+    background-color: #f0f6d0;
+    color: #5e9cea;
+    border: 2px solid #5e9cea;
+    font-weight: bold;
+    padding: 6px 50px;
+    margin-right: 90px;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.btn-box a:hover {
+    background-color: #5e9cea;
+    color: #f0f6d0;
+}
